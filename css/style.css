@@ -15,6 +15,12 @@ h1 {
    color: rgb(235, 236, 245);
    font-family: Arial, Helvetica, sans-serif; 
 }
+/* Education and Workhistory */
+h2 {
+   text-align: center;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
 /* About Me */
 header {
    background-color: rgb(134, 6, 6);
@@ -22,8 +28,22 @@ header {
    padding: 8px; 
    margin: 10px;
 }
-/* ordered and unordered lists */
-li {
+
+/* Education */
+ul {
+   list-style-type: circle;
+   list-style-position: inside;
+   border: solid rgb(104, 23, 151) 2px;
+   padding: 2px; 
+   margin: 10px 60px 10px 20px;
+   font-family: Arial, Helvetica, sans-serif; 
+   text-align: center;
+}
+
+/* Work history */
+ol {
+   list-style-position: inside;
+   list-style-type: decimal;
    border: solid rgb(104, 23, 151) 2px;
    padding: 2px; 
    margin: 10px 60px 10px 20px;
@@ -32,7 +52,6 @@ li {
 }
 
 p {
-   display: inline-block;
    text-align: left; 
    font-family: Arial, Helvetica, sans-serif; 
    border: solid rgb(105, 13, 28) 2px;

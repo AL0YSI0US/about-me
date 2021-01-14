@@ -5,7 +5,7 @@
 // var banana = 42;
 
 // if(banana){
-  // console.log(banana);
+// console.log(banana);
 // }
 
 // console.log(banana);
@@ -16,86 +16,87 @@
 // normalize reponses to reduce coding efforts to .lowerCase();
 // print to console to confirm // 
 
-// Ask questionOne: 'Do you think I live in the Pacific Northwest?'
+// Ask pnwAnswer: 'Do you think I live in the Pacific Northwest?'
 //  if y:
 //  else if:
 //    else: 
-// Ask questionTwo: 'Would you believe I\'ve ever fought in cages?'
+// Ask cageFightAnswer: 'Would you believe I\'ve ever fought in cages?'
 //  if y:
 //  if n:
 //    else if: 
-// Ask questionThree: 'Do you think I like poke?'
+// Ask pokeAnswer: 'Do you think I like poke?'
 //  if y:
 //  if n:
 //    else if: 
-// Ask questionFour: 'Do you think I could have been a sponsored skateboarder in the 90s?'
+// Ask skaterAnswer: 'Do you think I could have been a sponsored skateboarder in the 90s?'
 //  if y:
 //  if n:
 //    else if: 
-// Ask questionFive: 'Did someone make you come here?'
+// Ask forcedHandAnswer: 'Did someone make you come here?'
 //  if y: ALERT: 'I wonder who you ticked off...'
 //  if n: wow USERNAME i feel honored.
 //    else if: no worries were done USERNAME
 // ------------------------------------------------------------------------------PLAN OF ATTACK/ 
 
 var username = prompt('Well hello there wanderer, What\'s your name?');
-alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!'); 
+alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
+// console.log('INTRUDER ALERT' + username);
 
 // question one
-var questionOne = prompt('Do you think I live in the Pacific Northwest?').toLowerCase(); 
+var pnwAnswer = prompt('Do you think I live in the Pacific Northwest?').toLowerCase();
+// console.log('Do you think I live in the Pacific Northwest? ' + pnwAnswer);
 
-if(questionOne === 'yes' || questionOne === 'y') {
-  console.log('You nailed it!');
-  alert('You nailed it!'); 
-} else if(questionOne ==='no' || questionOne === 'n') {
-  alert('That\'s not right but I can see this turning around for you.'); 
+if (pnwAnswer === 'yes' || pnwAnswer === 'y') {
+  alert('You nailed it!');
+} else if (pnwAnswer === 'no' || pnwAnswer === 'n') {
+  alert('That\'s not right but I can see this turning around for you.');
 } else {
   alert('Better luck next time ' + username)
 }
-// question two
-var questionTwo = prompt('Would you believe I\'ve ever fought in cages?').toLowerCase(); 
 
-if(questionTwo === 'yes' || questionTwo === 'y') {
-  console.log('You nailed it!');
-  alert('You nailed it!'); 
-} else if(questionTwo ==='no' || questionTwo === 'n') {
-  alert('That\'s not right but I can still see this turning around for you.'); 
+// question two
+var cageFightAnswer = prompt('Would you believe I\'ve ever fought in cages?').toLowerCase();
+// console.log('Would you believe I\'ve ever fought in cages? ' + cageFightAnswer);
+
+if (cageFightAnswer === 'yes' || cageFightAnswer === 'y') {
+  alert('You nailed it!');
+} else if (cageFightAnswer === 'no' || cageFightAnswer === 'n') {
+  alert('That\'s not right but I can still see this turning around for you.')
 } else {
   alert('Are you even typing real words in the prompt box? ' + username)
 }
 // question three
-var questionThree = prompt('Do you think I like poke?').toLowerCase(); 
+var pokeAnswer = prompt('Do you think I like poke?').toLowerCase();
+// console.log('Do you think I like poke? ' + pokeAnswer);
 
-if(questionThree === 'no' || questionOne === 'n') {
-  console.log('Spot on!');
-  alert('Spot on!'); 
-} else if(questionThree ==='no' || questionThree === 'n') {
-  alert('It\'s okay, it\'s not like I told you i didn\'t like it.'); 
+if (pokeAnswer === 'no' || pnwAnswer === 'n') {
+  alert('Spot on!');
+} else if (pokeAnswer === 'no' || pokeAnswer === 'n') {
+  alert('It\'s okay, it\'s not like I told you i didn\'t like it.');
 } else {
   alert('I\'m not like most Seattleites in this regard ' + username)
 }
 
 // question four
-var questionFour = prompt('Do you think I could have been a sponsored skateboarder in the 90s?').toLowerCase(); 
+var skaterAnswer = prompt('Do you think I could have been a sponsored skateboarder in the 90s?').toLowerCase();
+// console.log('Do you think I could have been a sponsored skateboarder in the 90s? ' + skaterAnswer);
 
-if(questionThree === 'yes' || questionFour === 'y') {
-  console.log('I miss those days!');
-  alert('I miss those days!'); 
-} else if(questionFour ==='no' || questionFour === 'n') {
-  alert('Sorry ' + username + ', that is incorrect.'); 
+if (pokeAnswer === 'yes' || skaterAnswer === 'y') {
+  alert('I miss those days!');
+} else if (skaterAnswer === 'no' || skaterAnswer === 'n') {
+  alert('Sorry ' + username + ', that is incorrect.');
 } else {
   alert('Are you here against your will ' + username + '?')
 }
 
 // question five
-var questionFive = prompt('Did someone make you come here?').toLowerCase(); 
-console.log(questionFive);
+var forcedHandAnswer = prompt('Did someone make you come here?').toLowerCase();
+// console.log('Did someone make you come here? ' + forcedHandAnswer);
 
-if(questionFive === 'yes' || questionFive === 'y') {
-  console.log('I wonder who you ticked off...');
-  alert('I wonder who you ticked off...'); 
-} else if(questionFive ==='no' || questionFive === 'n') {
-  alert('Wow ' + username + ', I feel honored.'); 
+if (forcedHandAnswer === 'yes' || forcedHandAnswer === 'y') {
+  alert('I wonder who you ticked off ' + username + '....');
+} else if (forcedHandAnswer === 'no' || forcedHandAnswer === 'n') {
+  alert('Wow ' + username + ', I feel honored.');
 } else {
   alert('Don\'t fret, it\'s all over now. ' + 'Welcome ' + username + '.')
 }
