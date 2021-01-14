@@ -10,6 +10,7 @@
 * [submission PR](http://xyz.com)
 * *Any Links you used as reference*
 * [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
+* [Center Footer | stack overflow](https://stackoverflow.com/questions/15629511/how-can-i-make-my-footer-center-to-the-bottom-of-the-page/15629635)
 
 ### Reflections | Comments | Collaborators
 * *Consider including the answers to your daily journal and submission questions here*
