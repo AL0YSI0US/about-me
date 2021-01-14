@@ -10,13 +10,36 @@
 
 // console.log(banana);
 
-// get username and offer them a greeting
-// var username = prompt('Well hello there wanderer, What\'s your name?');
-alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
-
-// write (ask) 5 questions. they MUST accept yes or no in ANY case
+// PLAN OF ATTACK------------------------------------------------------------------------------/
+// 1. get username and offer them a greeting
+// 2. Ask user 5 questions. they MUST accept yes or no in ANY case
 // normalize reponses to reduce coding efforts to .lowerCase();
-// print to console to confirm 
+// print to console to confirm // 
+
+// Ask questionOne: 'Do you think I live in the Pacific Northwest?'
+//  if y:
+//  else if:
+//    else: 
+// Ask questionTwo: 'Would you believe I\'ve ever fought in cages?'
+//  if y:
+//  if n:
+//    else if: 
+// Ask questionThree: 'Do you think I like poke?'
+//  if y:
+//  if n:
+//    else if: 
+// Ask questionFour: 'Do you think I could have been a sponsored skateboarder in the 90s?'
+//  if y:
+//  if n:
+//    else if: 
+// Ask questionFive: 'Did someone make you come here?'
+//  if y: ALERT: 'I wonder who you ticked off...'
+//  if n: wow USERNAME i feel honored.
+//    else if: no worries were done USERNAME
+// ------------------------------------------------------------------------------PLAN OF ATTACK/ 
+
+var username = prompt('Well hello there wanderer, What\'s your name?');
+alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!'); 
 
 // question one
 var questionOne = prompt('Do you think I live in the Pacific Northwest?').toLowerCase(); 
