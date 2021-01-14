@@ -17,5 +17,5 @@ Hello there, you have found yourself at the heart of Aloysious' about me page.
 * *This is also a good place to reflect on the tools and resources used and learned*
 * **Collaboration with Kassie Bradshaw | Aestheitics** 
 * **Patrick Laurion: assisted with JavaScript: printing questions and responses to the console** 
-* **control + shift + f makes the document in visual code standardizes  margins for documents.**
+* **alt + shift + f makes the document in visual code standardizes  margins for documents.**
 * **"inline" coding on HTML will override CSS** 
