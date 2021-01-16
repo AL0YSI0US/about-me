@@ -4,61 +4,85 @@
    padding: 10px;
 }
 
+/* About Me banner*/
+header {
+   background-color: rgb(134, 6, 6);
+   text-align: center; 
+   padding: 6px; 
+   margin: 10px;
+}
+
 body {
    background-color: rgb(129, 146, 146); 
    width: 960px;
    margin: auto;
    border: 10px solid black; 
 }
-/* About me */
+/* About me details*/
 h1 {
    color: rgb(235, 236, 245);
    font-family: Arial, Helvetica, sans-serif; 
+   font-size: 26px;
+   display: inline-block;
+   text-align: left;
 }
-/* Education and Workhistory */
+/* Education and Work History */
 h2 {
    text-align: center;
    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* About Me */
-header {
-   background-color: rgb(134, 6, 6);
-   text-align: center; 
-   padding: 8px; 
-   margin: 10px;
+   display: inline-block;
+   border: inherit;
 }
 
 /* Education */
 ul {
+   float: right;
    list-style-type: circle;
    list-style-position: inside;
    border: solid rgb(104, 23, 151) 2px;
+   width: 275px;
    padding: 2px; 
    margin: 10px 60px 10px 20px;
    font-family: Arial, Helvetica, sans-serif; 
    text-align: center;
 }
 
-/* Work history */
+/* Favorite Artists */
 ol {
    list-style-position: inside;
    list-style-type: decimal;
-   border: solid rgb(104, 23, 151) 2px;
+   border: dashed rgb(104, 23, 151) 2px;
+   width: 275px;
    padding: 2px; 
    margin: 10px 60px 10px 20px;
    font-family: Arial, Helvetica, sans-serif; 
    text-align: center;
-}
 
-p {
+}
+/* About Me */
+p.one {
    text-align: left; 
    font-family: Arial, Helvetica, sans-serif; 
    border: solid rgb(105, 13, 28) 2px;
    padding: 8px; 
    margin: 10px 60px 10px 20px;
 }
-
+/* Goals */
+p.two {
+   text-align: left; 
+   font-family: Arial, Helvetica, sans-serif; 
+   border: solid rgb(104, 23, 151) 2px;
+   padding: 8px; 
+   margin: 10px 60px 10px 20px;
+}
+/* Artists */
+p.three{
+   text-align: left; 
+   font-family: Arial, Helvetica, sans-serif; 
+   border: solid rgb(105, 13, 28) 2px;
+   padding: 8px; 
+   margin: 10px 60px 10px 20px;
+}
 footer {
    text-align:center;
    bottom: 0;

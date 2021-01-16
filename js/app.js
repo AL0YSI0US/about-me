@@ -38,7 +38,7 @@
 //    else if: no worries were done USERNAME
 // ------------------------------------------------------------------------------PLAN OF ATTACK/
 
-var username = prompt('Well hello there wanderer, What\'s your name?');
+// var username = prompt('Well hello there wanderer, What\'s your name?');
 alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
 // console.log('INTRUDER ALERT' + username);
 
@@ -107,6 +107,15 @@ if (forcedHandAnswer === 'yes' || forcedHandAnswer === 'y') {
 // give the user 4 attempts [counter], display an [alert] that lets them know if the guess was too high of too low
 // if correct display [alert]
 //
+// i = 3, 2, 1 (count down counter)
+// i--;
 //
-//
-//
+// var zodiac;
+// zodiac = ['capricorn', 'aquarius', 'pisces', 'aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagitarius'];
+
+// var favoriteNumber = prompt('Can you guess my favorite number?');
+
+// for (var i = 0; i < 4; i--){
+// document.write(i + );
+// }
+// function favoriteNumber(){
