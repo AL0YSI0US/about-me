@@ -4,6 +4,10 @@
 
 Hello there, you have found yourself at the heart of Aloysious' about me page.
 
+This site offers the user (or "wanderer") a series of questions that will allow the user to get to know more about me!  
+
+
+
 ### Author: Student/Group Name
 
 ### Links and Resources

@@ -36,70 +36,70 @@
 //  if y: ALERT: 'I wonder who you ticked off...'
 //  if n: wow USERNAME i feel honored.
 //    else if: no worries were done USERNAME
-// ------------------------------------------------------------------------------PLAN OF ATTACK/
+// // ------------------------------------------------------------------------------PLAN OF ATTACK/
 
 // var username = prompt('Well hello there wanderer, What\'s your name?');
-alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
-// console.log('INTRUDER ALERT' + username);
+// alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
+// // console.log('INTRUDER ALERT' + username);
 
 // question one
-var pnwAnswer = prompt('Do you think I live in the Pacific Northwest?').toLowerCase();
-// console.log('Do you think I live in the Pacific Northwest? ' + pnwAnswer);
+// // var pnwAnswer = prompt('Do you think I live in the Pacific Northwest?').toLowerCase();
+// // console.log('Do you think I live in the Pacific Northwest? ' + pnwAnswer);
 
-if (pnwAnswer === 'yes' || pnwAnswer === 'y') {
-  alert('You nailed it!');
-} else if (pnwAnswer === 'no' || pnwAnswer === 'n') {
-  alert('That\'s not right but I can see this turning around for you.');
-} else {
-  alert('Better luck next time ' + username);
-}
+// if (pnwAnswer === 'yes' || pnwAnswer === 'y') {
+//   alert('You nailed it!');
+// } else if (pnwAnswer === 'no' || pnwAnswer === 'n') {
+//   alert('That\'s not right but I can see this turning around for you.');
+// } else {
+//   alert('Better luck next time ' + username);
+// }
 
-// question two
-var cageFightAnswer = prompt('Would you believe I\'ve ever fought in cages?').toLowerCase();
-// console.log('Would you believe I\'ve ever fought in cages? ' + cageFightAnswer);
+// // question two
+// var cageFightAnswer = prompt('Would you believe I\'ve ever fought in cages?').toLowerCase();
+// // console.log('Would you believe I\'ve ever fought in cages? ' + cageFightAnswer);
 
-if (cageFightAnswer === 'yes' || cageFightAnswer === 'y') {
-  alert('You nailed it!');
-} else if (cageFightAnswer === 'no' || cageFightAnswer === 'n') {
-  alert('That\'s not right but I can still see this turning around for you.');
-} else {
-  alert('Are you even typing real words in the prompt box? ' + username);
-}
-// question three
-var pokeAnswer = prompt('Do you think I like poke?').toLowerCase();
-// console.log('Do you think I like poke? ' + pokeAnswer);
+// if (cageFightAnswer === 'yes' || cageFightAnswer === 'y') {
+//   alert('You nailed it!');
+// } else if (cageFightAnswer === 'no' || cageFightAnswer === 'n') {
+//   alert('That\'s not right but I can still see this turning around for you.');
+// } else {
+//   alert('Are you even typing real words in the prompt box? ' + username);
+// }
+// // question three
+// var pokeAnswer = prompt('Do you think I like poke?').toLowerCase();
+// // console.log('Do you think I like poke? ' + pokeAnswer);
 
-if (pokeAnswer === 'no' || pnwAnswer === 'n') {
-  alert('Spot on!');
-} else if (pokeAnswer === 'no' || pokeAnswer === 'n') {
-  alert('It\'s okay, it\'s not like I told you i didn\'t like it.');
-} else {
-  alert('I\'m not like most Seattleites in this regard ' + username);
-}
+// if (pokeAnswer === 'no' || pnwAnswer === 'n') {
+//   alert('Spot on!');
+// } else if (pokeAnswer === 'no' || pokeAnswer === 'n') {
+//   alert('It\'s okay, it\'s not like I told you i didn\'t like it.');
+// } else {
+//   alert('I\'m not like most Seattleites in this regard ' + username);
+// }
 
-// question four
-var skaterAnswer = prompt('Do you think I could have been a sponsored skateboarder in the 90s?').toLowerCase();
-// console.log('Do you think I could have been a sponsored skateboarder in the 90s? ' + skaterAnswer);
+// // question four
+// var skaterAnswer = prompt('Do you think I could have been a sponsored skateboarder in the 90s?').toLowerCase();
+// // console.log('Do you think I could have been a sponsored skateboarder in the 90s? ' + skaterAnswer);
 
-if (pokeAnswer === 'yes' || skaterAnswer === 'y') {
-  alert('I miss those days!');
-} else if (skaterAnswer === 'no' || skaterAnswer === 'n') {
-  alert('Sorry ' + username + ', that is incorrect.');
-} else {
-  alert('Are you here against your will ' + username + '?');
-}
+// if (pokeAnswer === 'yes' || skaterAnswer === 'y') {
+//   alert('I miss those days!');
+// } else if (skaterAnswer === 'no' || skaterAnswer === 'n') {
+//   alert('Sorry ' + username + ', that is incorrect.');
+// } else {
+//   alert('Are you here against your will ' + username + '?');
+// }
 
-// question five
-var forcedHandAnswer = prompt('Did someone make you come here?').toLowerCase();
-// console.log('Did someone make you come here? ' + forcedHandAnswer);
+// // question five
+// var forcedHandAnswer = prompt('Did someone make you come here?').toLowerCase();
+// // console.log('Did someone make you come here? ' + forcedHandAnswer);
 
-if (forcedHandAnswer === 'yes' || forcedHandAnswer === 'y') {
-  alert('I wonder who you ticked off ' + username + '....');
-} else if (forcedHandAnswer === 'no' || forcedHandAnswer === 'n') {
-  alert('Wow ' + username + ', I feel honored.');
-} else {
-  alert('Don\'t fret, it\'s all over now. ' + 'Welcome ' + username + '.');
-}
+// if (forcedHandAnswer === 'yes' || forcedHandAnswer === 'y') {
+//   alert('I wonder who you ticked off ' + username + '....');
+// } else if (forcedHandAnswer === 'no' || forcedHandAnswer === 'n') {
+//   alert('Wow ' + username + ', I feel honored.');
+// } else {
+//   alert('Don\'t fret, it\'s all over now. ' + 'Welcome ' + username + '.');
+// }
 
 // PLAN OF ATTACK------------------------------------------------------------------------------/
 // add another question [question6]
@@ -109,13 +109,8 @@ if (forcedHandAnswer === 'yes' || forcedHandAnswer === 'y') {
 //
 // i = 3, 2, 1 (count down counter)
 // i--;
-//
-// var zodiac;
-// zodiac = ['capricorn', 'aquarius', 'pisces', 'aries', 'taurus', 'gemini', 'cancer', 'leo', 'virgo', 'libra', 'scorpio', 'sagitarius'];
 
-// var favoriteNumber = prompt('Can you guess my favorite number?');
+var username = prompt('Well hello there wanderer, What\'s your name?');
+alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
+console.log('INTRUDER ALERT   ' + username + ' !!!!');
 
-// for (var i = 0; i < 4; i--){
-// document.write(i + );
-// }
-// function favoriteNumber(){
