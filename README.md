@@ -20,3 +20,5 @@ This site offers YOU; the user (or "wanderer") a series of questions that will a
 * **Tom McGuire Introduced the concept of creating a variable to keep score**
 * **alt + shift + f makes the document in visual code standardizes  margins for documents.**
 * **"inline" coding on your HTML will override your CSS file**
+
+[How I got a picture stuck in my about me >.< >](https://ardalis.com/add-images-easily-to-github/)
