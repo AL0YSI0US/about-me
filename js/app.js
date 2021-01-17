@@ -38,13 +38,13 @@
 //    else if: no worries were done USERNAME
 // // ------------------------------------------------------------------------------PLAN OF ATTACK/
 
-// var username = prompt('Well hello there wanderer, What\'s your name?');
-// alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
+var username = prompt('Well hello there wanderer, What\'s your name?');
+alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
 // // console.log('INTRUDER ALERT' + username);
 
-// question one
-// // var pnwAnswer = prompt('Do you think I live in the Pacific Northwest?').toLowerCase();
-// // console.log('Do you think I live in the Pacific Northwest? ' + pnwAnswer);
+// // question one
+// var pnwAnswer = prompt('Do you think I live in the Pacific Northwest?').toLowerCase();
+// console.log('Do you think I live in the Pacific Northwest? ' + pnwAnswer);
 
 // if (pnwAnswer === 'yes' || pnwAnswer === 'y') {
 //   alert('You nailed it!');
@@ -98,19 +98,35 @@
 // } else if (forcedHandAnswer === 'no' || forcedHandAnswer === 'n') {
 //   alert('Wow ' + username + ', I feel honored.');
 // } else {
-//   alert('Don\'t fret, it\'s all over now. ' + 'Welcome ' + username + '.');
+//   alert('Don\'t fret, it\'s almost over now. ' + 'Welcome ' + username + '.');
 // }
 
-// PLAN OF ATTACK------------------------------------------------------------------------------/
-// add another question [question6]
-// Have the user guess a numeric value [value=6]
-// give the user 4 attempts [counter], display an [alert] that lets them know if the guess was too high of too low
-// if correct display [alert]
-//
-// i = 3, 2, 1 (count down counter)
-// i--;
+// --------------------------------Question 6--------------------------------------/
+for (var i = 0; i < 4; i++) {
+  var answerNumberGuess = prompt('Can you guess my favorite number?...I will give you Four chances.');
+  // if answer is guessed correctly
+  if(answerNumberGuess === '6') {
+    console.log('You guessed Right' + answerNumberGuess);
+    alert('Woah, you nailed it!');
+    break;
+    // if answer is too low
+  } else if (answerNumberGuess < 6 ) {
+    console.log('You guessed Low' + answerNumberGuess);
+    alert('Too low! Try again.');
+    //
+  } else if (answerNumberGuess > 6 ) {
+    console.log('You guessed High' + answerNumberGuess);
+    alert('Too high!');
+  }
+}
+alert('The correct answer is 6.');
+alert('Thanks ' + username + ', for playing my game!');
 
-var username = prompt('Well hello there wanderer, What\'s your name?');
-alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
-console.log('INTRUDER ALERT   ' + username + ' !!!!');
+// /-----------------------------Question 7-------------------------------------------/
+// -------------0-----------1---------2----------3----------4-------------------------/
+// var colors = ['amythyst', 'jade', 'selenite', 'diamond', 'quartz'].toLowerCase();
+// }
+
+// var myFavoriteCrystals = ['Amythyst', 'Quartz']
+
 
