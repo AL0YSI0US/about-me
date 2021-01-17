@@ -129,14 +129,28 @@ for (var i = 0; i < 4; i++) {
   }
 }
 alert('The correct answer is 6.');
-alert(`Thanks,  ${username} for playing my game! Your score is ${scoreCounter} /7.`);
 
 
 // /-----------------------------Question 7-------------------------------------------/
-// -------------0-----------1---------2----------3----------4-------------------------/
+// array of possible correct answers
+var favColors = ['red', 'black', 'green', 'yellow', 'pink'];
+var clueGuesses = 6;
 
-var crystals = ['amythyst', 'jade', 'selenite', 'diamond', 'quartz']; {
-
+for (var j = 0; j < 6; j++) {
+  var colorGuess = prompt(`Can you guess one of my favorite colors? Guesses left: ${clueGuesses--}`).toLowerCase();
+  // if answer is guessed correctly
+  if(colorGuess === favColors) {
+    // console.log(colorGuess + ' Woah you must be a mind reader!!');
+    alert(`Woah you must be a mind reader!! ${favColors} I love that color`);
+    scoreCounter++;
+    break;
+    // if the guess is wrong
+  } else if (colorGuess !== favColors ) {
+    console.log(colorGuess + ' ... Keep at it, i believe in you!');
+    alert(colorGuess + ' ... Keep at it, i believe in you!');
+  }
 }
-
-// var favoriteCrystals = ['Amythyst', 'Quartz'];
+alert(`Heres my favorite colors: ${favColors[0]}, ${favColors[1]}, and ${favColors[2]}.`);
+alert(`Thanks,  ${username} for playing my game! Your score is ${scoreCounter} /7.`);
+// console.log('wowzaaaa');
+// IIIIIIIIIIIIIBBBBBBBBBBBBBBBRRRRRRRRRRROOOOOOOOOOOOOOOKKKKKKKKKKKKKEEEEEEEEEEEEITTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!

@@ -19,4 +19,4 @@ This site offers YOU; the user (or "wanderer") a series of questions that will a
 * **Patrick Laurion: assisted with JavaScript: printing questions and responses to the console** 
 * **Tom McGuire Introduced the concept of creating a variable to keep score**
 * **alt + shift + f makes the document in visual code standardizes  margins for documents.**
-* **"inline" coding on HTML will override CSS**
+* **"inline" coding on your HTML will override your CSS file**
