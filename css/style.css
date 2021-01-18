@@ -1,5 +1,5 @@
 * {
-   border: 3px solid whitesmoke;
+   /* border: 3px solid whitesmoke; */
    margin: 25px;
    padding: 10px;
 }
@@ -46,7 +46,7 @@ ul {
    float: right;
    list-style-type: none;
    list-style-position: inside;
-   border: solid rgb(104, 23, 151) 2px;
+   border: dashed rgb(104, 23, 151) 2px;
    width: 275px;
    padding: 2px; 
    margin: 10px 60px 10px 20px;
@@ -56,10 +56,11 @@ ul {
 
 /* Favorite Artists list 10 numbers */
 ol {
+   display: block;
    list-style-position: inside;
    list-style-type: decimal;
    border: dashed rgb(104, 23, 151) 2px;
-   width: 275px;
+   width: 200px;
    padding: 2px; 
    margin: 10px 60px 10px 20px;
    font-family: Arial, Helvetica, sans-serif; 
@@ -85,6 +86,7 @@ p.four {
 
 /* The "Vision"...I dream of collaborating with */
 p.two {
+   display: block;
    text-align: left; 
    font-family: Arial, Helvetica, sans-serif; 
    border: solid rgb(104, 23, 151) 2px;
@@ -98,7 +100,7 @@ p.three {
    text-align: left; 
    font-family: Arial, Helvetica, sans-serif; 
    border: solid rgb(105, 13, 28) 2px;
-   width: 275px;
+   width: 200px;
    padding: 2px; 
    margin: 10px 60px 10px 20px;
    font-family: Arial, Helvetica, sans-serif; 
@@ -120,10 +122,15 @@ footer {
    padding:10px;
 }
 
-/* img {
-   height: fixed;
+img {
+   float: right;
+   position: inline-block;
+   height: auto;
    margin: auto;
    width: 200px;
-   padding:10px;
-} */
-
+   padding:none;
+}
+p::first-letter {
+   font-weight: bold;
+   color: red;
+ }

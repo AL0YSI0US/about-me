@@ -203,6 +203,18 @@ alert(`Thanks,  ${username} for playing my game! You scored: ${scoreCounter} / 7
 //     ..........,..*/*.,,...........**/*,,.,.   . .*                        .
 // .....      ..  .,....,,.*.,...  .....,,,,,      .(..
 // . .           ...........,.*..... .    ,..      .#
-// ...         ,..... ............. ....  ..       *.      ALOYSIOUS [ they / them ]
+// ...         ,..... ............. ....  ..       *.     ALOYSIOUS [ they / them ]
 // ..........***,,,,. .... ....    . . ...,        *    .
 // .........,...*.*.,.,..  ..        ....,*       ..
+//.................................................................................|
+//..................... <<<<<<<< SPECIAL THANKS TO >>>>>>>>........................|
+//#################################################################################|
+//#       ::IN COLLABORATION WITH::      |        ::CONTRIBUTION SCOPE::          #|
+//#       =========================      |         =====================          #|
+//#  Kassie Bradshaw and Patrick Laurion | Numbers Guessing Game [Questions 1-5]  #|
+//#                      Kassie Bradshaw | Numbers Guessing Game [Question 6]     #|
+//#  Accountability Buddy ^^^^^ʕʘ̅͜ʘ̅ʔ^^^^^ |                                        #|
+//#                       Garfield Grant | Loop Thoery [Question 7]               #|
+//#                          Tom McGuire | Introduced Counter Variable Concept    #|
+//#  Accountability Buddy ^^^^^ʕʘ̅͜ʘ̅ʔ^^^^^ |                                        #|
+//#################################################################################|
