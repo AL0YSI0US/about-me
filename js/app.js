@@ -1,16 +1,9 @@
 'use strict';
 
+// Proof Of Life:
 // console.log('hello world!');
 
-// var banana = 42;
-
-// if(banana){
-// console.log(banana);
-// }
-
-// console.log(banana);
-
-// PLAN OF ATTACK------------------------------------------------------------------------------/
+// ---------------------------------------------------------------------------------------PLAN OF ATTACK------/
 // 1. get username and offer them a greeting
 // 2. Ask user 5 questions. they MUST accept yes or no in ANY case
 // normalize reponses to reduce coding efforts to .lowerCase();
@@ -36,18 +29,25 @@
 //  if y: ALERT: 'I wonder who you ticked off...'
 //  if n: wow USERNAME i feel honored.
 //    else if: no worries were done USERNAME
-// // ------------------------------------------------------------------------------PLAN OF ATTACK/
+// -------------------------------------------------------------------------------------------PLAN OF ATTACK------/
 
-var username = prompt('Well hello there wanderer, What\'s your name?');
+// ask wanderer to provide thier name (name will be used for the duration of the script)
+// prompt wanderer to answer 5 questions about ALOYSIOUS
+// wanderer responses will be normalized to lowercase as will: y = yes / n = no
+
+var username = prompt('Well hello there wanderer, What\'s your name?').toUpperCase();
+
+// score counter decalred in the begining of code, must appear after each correct answer to tally scores
+// an alert at the end of the script will inform the wanderer of thier achieved score
 
 var scoreCounter = 0;
 
-alert('Greeting\'s ' + username + ', it\'s a pleasure to meet you!');
-// console.log('INTRUDER ALERT' + username);
+alert('Greeting\'s ' + username + ', it\'s an absolute pleasure to meet you!');
+// console.log('INTRUDER ALERT>>>' + username);
 
-// question one
+// --------------------------------Question 1-----------------------------------------------------------------------/
 var pnwAnswer = prompt('Do you think I live in the Pacific Northwest?').toLowerCase();
-console.log('Do you think I live in the Pacific Northwest? ' + pnwAnswer);
+// console.log('Do you think I live in the Pacific Northwest? ' + pnwAnswer);
 
 if (pnwAnswer === 'yes' || pnwAnswer === 'y') {
   alert('You nailed it!');
@@ -58,7 +58,7 @@ if (pnwAnswer === 'yes' || pnwAnswer === 'y') {
   alert('Better luck next time ' + username);
 }
 
-// question two
+// --------------------------------Question 2-----------------------------------------------------------------------/
 var cageFightAnswer = prompt('Would you believe I\'ve ever fought in cages?').toLowerCase();
 // console.log('Would you believe I\'ve ever fought in cages? ' + cageFightAnswer);
 
@@ -70,7 +70,7 @@ if (cageFightAnswer === 'yes' || cageFightAnswer === 'y') {
 } else {
   alert('Are you even typing real words in the prompt box? ' + username);
 }
-// question three
+// --------------------------------Question 3-----------------------------------------------------------------------/
 var pokeAnswer = prompt('Do you think I like poke?').toLowerCase();
 // console.log('Do you think I like poke? ' + pokeAnswer);
 
@@ -83,7 +83,7 @@ if (pokeAnswer === 'no' || pnwAnswer === 'n') {
   alert('I\'m not like most Seattleites in this regard ' + username);
 }
 
-// question four
+// --------------------------------Question 4-----------------------------------------------------------------------/
 var skaterAnswer = prompt('Do you think I could have been a sponsored skateboarder in the 90s?').toLowerCase();
 // console.log('Do you think I could have been a sponsored skateboarder in the 90s? ' + skaterAnswer);
 
@@ -96,7 +96,7 @@ if (pokeAnswer === 'yes' || skaterAnswer === 'y') {
   alert('Are you here against your will ' + username + '?');
 }
 
-// question five
+// --------------------------------Question 5-----------------------------------------------------------------------/
 var forcedHandAnswer = prompt('Did someone make you come here?').toLowerCase();
 // console.log('Did someone make you come here? ' + forcedHandAnswer);
 
@@ -109,48 +109,100 @@ if (forcedHandAnswer === 'yes' || forcedHandAnswer === 'y') {
   alert('Don\'t fret, it\'s almost over now. ' + 'Welcome ' + username + '.');
 }
 
-// --------------------------------Question 6--------------------------------------/
+// --------------------------------Question 6-----------------------------------------------------------------------/
+// ask wanderer a question, give them 6 chances to get it right
+// alert them of the correct answer at the and of the iteration or after they answer correctly
+
 for (var i = 0; i < 4; i++) {
   var answerNumberGuess = prompt('Can you guess my favorite number?...I will give you Four chances.');
   // if answer is guessed correctly
   if (answerNumberGuess === '6') {
-    console.log('You guessed Right' + answerNumberGuess);
+    // console.log('You guessed Right' + answerNumberGuess);
     alert('Woah, you nailed it!');
     scoreCounter++;
     break;
     // if answer is too low
   } else if (answerNumberGuess < 6) {
-    console.log('You guessed Low' + answerNumberGuess);
+    // console.log('You guessed Low' + answerNumberGuess);
     alert('Too low! Try again.');
     //
   } else if (answerNumberGuess > 6) {
-    console.log('You guessed High' + answerNumberGuess);
+    // console.log('You guessed High' + answerNumberGuess);
     alert('Too high!');
   }
 }
 alert('The correct answer is 6.');
 
 
-// /-----------------------------Question 7-------------------------------------------/
-// array of possible correct answers
-var favColors = ['red', 'black', 'green', 'yellow', 'pink'];
+// --------------------------------Question 6-----------------------------------------------------------------------/
+// create an array of possible correct answers
+// ask user to guess one / give them 6 tries
+// give them a final sccore at the end!
+
+var colorsOfTheRainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'violet'];
+
 var clueGuesses = 6;
 
-for (var j = 0; j < 6; j++) {
-  var colorGuess = prompt(`Can you guess one of my favorite colors? Guesses left: ${clueGuesses--}`).toLowerCase();
-  // if answer is guessed correctly
-  if(colorGuess === favColors) {
-    // console.log(colorGuess + ' Woah you must be a mind reader!!');
-    alert(`Woah you must be a mind reader!! ${favColors} I love that color`);
-    scoreCounter++;
+var correct = false;
+
+for (var i = 0; i < clueGuesses; i++) {
+  var questionSeven = prompt(`${username} There are six colors that are pretty universally recognized as the colors of the rainbow, can you guess any?`);
+
+  for (var j = 0; j < colorsOfTheRainbow.length; j++) {
+    if (questionSeven === colorsOfTheRainbow[j]) {
+      alert(`You are Correct! ${colorsOfTheRainbow[j]} is a color that lives within the rainbow!`);
+      correct = true;
+      scoreCounter++;
+    }
+  } if (correct) {
     break;
-    // if the guess is wrong
-  } else if (colorGuess !== favColors ) {
-    console.log(colorGuess + ' ... Keep at it, i believe in you!');
-    alert(colorGuess + ' ... Keep at it, i believe in you!');
+  }
+  if (i === clueGuesses || correct) {
+    alert(`The colors of the rainbow are ${colorsOfTheRainbow}`);
   }
 }
-alert(`Heres my favorite colors: ${favColors[0]}, ${favColors[1]}, and ${favColors[2]}.`);
-alert(`Thanks,  ${username} for playing my game! Your score is ${scoreCounter} /7.`);
-// console.log('wowzaaaa');
-// IIIIIIIIIIIIIBBBBBBBBBBBBBBBRRRRRRRRRRROOOOOOOOOOOOOOOKKKKKKKKKKKKKEEEEEEEEEEEEITTTTTTTTTTTTTTTTTTTT!!!!!!!!!!!!!!!
+
+alert(`Thanks,  ${username} for playing my game! You scored: ${scoreCounter} / 7.`);
+// console.log(`Wanderer ${username} scored ${scoreCounter} +  / 7`);
+
+// -------------------------------------------------------------------------------------------------------FIN---------/
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&&%%%&%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#**.,,.,*/,,,(*(&%&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%%%#*(,..,......   .*,/#(###/&%&%%%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%%(/.       .....      *,*,..*((*%&%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%%%.,.... ....,,,*,....      ...,,(%%%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%%/... ...*%%%&%%%%%(*/***//*,..,**(%%&%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%#,. ../%&&&&&&&%%%%%##//((((#%%*,(*/#%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%%%/..,#%%%%%%&&&%%%%%%%%####((#%&@@@&#/,%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%%%%%%%%%%%%%/ .,,(#%%&&&&&&%%%%%%%%%#######%&&@@&%&  *%%%%%%%%%%%%%%%%%%%%%
+// %#%%#%#%%%%%%%%*.   ,/#%%%/*,*,**((#######(((//(%@@&@@@#(  .,%%%%%%%%%%%%%%%%%%%
+// #%##%#%%%%%%%(,  .%(.###//**,,,***//((((((//**/////#@@%#%%(..(/%%%%%%%%%%%%%%%%%
+// %##%%#%#%%%%#,  *%%,,%#(**(&%#/*,,,*(##((/***//////((@@/%%%%.*(%%%%%%%%%%%%%%%%%
+// ######%%%###,,.*%%%.*%#((*.    ,**,*%&%(/****/**////(@@,%%%%%.##%%%%%%%%%%%%%%%%
+// ############*(,*..  /%%%%///*****(&&&&&%(((//**.../#%@@.%%%%%.(%%%%%%%%%%%%%%%%%
+// ############.,,*..  (%&&&&&%%#####%%&&&%(####(/***&@@@@ ../(@@*%%%%%%%%%#%#%%###
+// ############....    /&&&&&&%%%#(//&&&%%###((#%%%@@@@@@%.../..,,%%%%%%%%%########
+// %###########        #%#%@&&/(##%%(//((/((/((((#%%%&@@@ ......,*%%%%%############
+// %%%#########..    &&&&&&@@&&(.,%&%&/****///((((,###&&#   ....,(%%%##############
+// %%%#########*,.&%&#&&&&&&@&&%#..,,***/////((((((/((%%.     ...%#%###############
+// %%#%##########%/(/&&&&&&&&&&&&%#%%#(((((((/*.,,/((((*/      .*##%###############
+// %%%%%###########.%&%&&#(((##%&&&&&&&#//(((((/((((((/*#%#/,(%%###################
+// %%%%%###########%%&%#//////(#%%%&&&&&@@@%/(((//////%%%/%%%%%%%%%%%%%%%%%%%%%%%%%
+// %%%%%##############(/////////(((#%%&&&&&&@@//////@%%%%%%%%%%%%%%%%%%%%%%%%%###((
+// %%%%%#%%##########%#******//////####%%&&&&@@@//%#&&@@@%%%%%%##%((#%%%%((#%%&&#((
+// %%%###%%%#######%%#//*********//(#(%%&&&&&&&@((%/@@(%@&&(/*,,,*,,,,,,**/(/,,(#(%
+// %%%%%%%%#######%%%%%%%,,,,,**//##(#((///(/#@&# %&&@@.(%&*,,,,.  . ... ,**  .**((
+// %%%#%%#%########(,,./,*,#,,,,(##/#/(*((/(/*///(#&&@@((%*,.     .       */  ..**/
+// %%%%%%%####/,**/..../.*.%%/%&,#(#//*(/*/*,(*,,*,.%#@*((... .        . ../   .,/,
+// %##///,...../*..*,.  ,,*,&%&%#//#((/,//.//,,**,,,,(&(*,.                *     .
+// ....,..........   .....,,/%#(%((,((*(/***,,.,,,.,,,/                    ..
+// ,,.,. ...**... ......... /##(#*((,/(,(*.*,,,,.,*(&*.    .                *
+// .. . ... .....     .,,,*((((/((/(/,*/,,*.,,,.   .,/..
+// ....    .  .. ....,,,........,(*/*/*.**.,.,  ., .,,
+//     ..........,..*/*.,,...........**/*,,.,.   . .*                        .
+// .....      ..  .,....,,.*.,...  .....,,,,,      .(..
+// . .           ...........,.*..... .    ,..      .#
+// ...         ,..... ............. ....  ..       *.      ALOYSIOUS [ they / them ]
+// ..........***,,,,. .... ....    . . ...,        *    .
+// .........,...*.*.,.,..  ..        ....,*       ..

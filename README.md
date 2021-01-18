@@ -4,21 +4,31 @@
 
 Hello there, you have found yourself at the heart of Aloysious' about me page.
 
-This site offers YOU; the user (or "wanderer") a series of questions that will allow you to get to know a little bit more about Aloysious!  
+This site offers YOU; the user (or "wanderer") snippets of information to read about the Author (Aloysious) as well as a series of questions that will allow you to get to know a little bit more about them! 
 
-### Author: Student/Group Name
+**The highest score possible is Seven...How will you measure up?** 
+
+### Author: ALOYSIOUS
 
 ### Links and Resources
-* [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
-* [Center Footer | stack overflow](https://stackoverflow.com/questions/15629511/how-can-i-make-my-footer-center-to-the-bottom-of-the-page/15629635)
++ [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
++ [Center Footer | stack overflow](https://stackoverflow.com/questions/15629511/how-can-i-make-my-footer-center-to-the-bottom-of-the-page/15629635)
++ [Center Content or Text in a Header](https://stackoverflow.com/questions/42306417/how-do-i-center-header-text-in-the-middle-of-the-navigation-menu-in-html)
++ [ASCII Art Upload Tool](https://manytools.org/hacker-tools/convert-images-to-ascii-art)
++ [JSFIDDLE](https://jsfiddle.net/)
 
 ### Reflections | Comments | Collaborators
-* *Consider including the answers to your daily journal and submission questions here*
-* *This is also a good place to reflect on the tools and resources used and learned*
-* **Collaboration with Kassie Bradshaw and Patrick Laurion Numbers guessing game**
-* **Patrick Laurion: assisted with JavaScript: printing questions and responses to the console** 
-* **Tom McGuire Introduced the concept of creating a variable to keep score**
-* **alt + shift + f makes the document in visual code standardizes  margins for documents.**
-* **"inline" coding on your HTML will override your CSS file**
 
-[How I got a picture stuck in my about me >.< >](https://ardalis.com/add-images-easily-to-github/)
++ **Collaboration with Kassie Bradshaw and Patrick Laurion** | Numbers Guessing Game [Questions 1 - 5]
++ **Collaboration with Kassie Bradshaw** | Numbers Guessing Game [Question 6]
++ **Collaboration with Tom McGuire** | Introduced Counter Variable Concept
++ **Collaboration with Garfield Grant** | Loop Thoery | Numbers Guessing Game[Question 7]
++ The shortcut **alt + shift + f**  formats various documents in visual code to adhere to margin rules.*
++ **"inline" coding** on an HTML page will override the CSS file providing styles.
++ **codepen.io** is a great tool for testing / setting up a webpage, it has built in features like css.reset **to turn on predictive text** > Go to *Settings > Editor Preferences > Editor Options > enable predictive text*
++ Sans Serif is best for the web | Sarif is meant for print, visually it appears to have "feet". *The visual density of 'Sans' is less accessible when compared to the 'Sans Sarif font when viewed in a browser'*
++ **JSFiddle** is an online IDE service and online community for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets, known as 'fiddles'. It allows for simulated AJAX calls
+
+[Disappointing tutorial / I got an empty photo (placeholder image) stuck in my about me for a few days >.< ](https://ardalis.com/add-images-easily-to-github/)
+
+> The placeholder was removed by adding an `<img>` tag on my HTML sheet, stying said img tag in CSS, "going live" with the webpage **and then** "Commenting out" all things img related. This ultimately wrote over the initial *issue* I created in GitHub following the  tutorial. 
