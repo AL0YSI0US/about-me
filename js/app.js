@@ -134,7 +134,7 @@ for (var i = 0; i < 4; i++) {
 alert('The correct answer is 6.');
 
 
-// --------------------------------Question 6-----------------------------------------------------------------------/
+// --------------------------------Question 7-----------------------------------------------------------------------/
 // create an array of possible correct answers
 // ask user to guess one / give them 6 tries
 // give them a final sccore at the end!
