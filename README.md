@@ -29,6 +29,7 @@ This site offers YOU; the user (or "wanderer") snippets of information to read a
 + **codepen.io** is a great tool for testing / setting up a webpage, it has built in features like css.reset **to turn on predictive text** > Go to *Settings > Editor Preferences > Editor Options > enable predictive text*
 + Sans Serif is best for the web | Sarif is meant for print, visually it appears to have "feet". *The visual density of 'Sans' is less accessible when compared to the 'Sans Sarif font when viewed in a browser'*
 + **JSFiddle** is an online IDE service and online community for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets, known as 'fiddles'. It allows for simulated AJAX calls
++ **Qadree** Questions 1-5 transistion from variable to functions
 
 [Tutorial=Fail > I got an empty photo (placeholder image) stuck in my about me for wee bit >.< ](https://ardalis.com/add-images-easily-to-github/) Followthe Hyperlink to read about creating an *issue* in github for a possible image upload workaround. . .  
 
