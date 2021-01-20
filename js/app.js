@@ -46,93 +46,105 @@ alert('Greeting\'s ' + username + ', it\'s an absolute pleasure to meet you!');
 // console.log('INTRUDER ALERT>>>' + username);
 
 // --------------------------------Question 1-----------------------------------------------------------------------/
-var pnwAnswer = prompt('Do you think I live in the Pacific Northwest?').toLowerCase();
-// console.log('Do you think I live in the Pacific Northwest? ' + pnwAnswer);
+function nativeBorn() {
+  var pnwAnswer = prompt('Do you think I live in the Pacific Northwest?').toLowerCase();
+  // console.log('Do you think I live in the Pacific Northwest? ' + nativeBorn);
 
-if (pnwAnswer === 'yes' || pnwAnswer === 'y') {
-  alert('You nailed it!');
-  scoreCounter++;
-} else if (pnwAnswer === 'no' || pnwAnswer === 'n') {
-  alert('That\'s not right but I can see this turning around for you.');
-} else {
-  alert('Better luck next time ' + username);
+  if (pnwAnswer === 'yes' || pnwAnswer === 'y') {
+    alert('You nailed it!');
+    scoreCounter++;
+  } else if (pnwAnswer === 'no' || pnwAnswer === 'n') {
+    alert('That\'s not right but I can see this turning around for you.');
+  } else {
+    alert('Better luck next time ' + username);
+  }
 }
-
+nativeBorn();
 // --------------------------------Question 2-----------------------------------------------------------------------/
-var cageFightAnswer = prompt('Would you believe I\'ve ever fought in cages?').toLowerCase();
-// console.log('Would you believe I\'ve ever fought in cages? ' + cageFightAnswer);
+function beastMode() {
+  var cageFightAnswer = prompt('Would you believe I\'ve ever fought in cages?').toLowerCase();
+  // console.log('Would you believe I\'ve ever fought in cages? ' + beastMode);
 
-if (cageFightAnswer === 'yes' || cageFightAnswer === 'y') {
-  alert('You nailed it!');
-  scoreCounter++;
-} else if (cageFightAnswer === 'no' || cageFightAnswer === 'n') {
-  alert('That\'s not right but I can still see this turning around for you.');
-} else {
-  alert('Are you even typing real words in the prompt box? ' + username);
+  if (cageFightAnswer === 'yes' || cageFightAnswer === 'y') {
+    alert('You nailed it!');
+    scoreCounter++;
+  } else if (cageFightAnswer === 'no' || cageFightAnswer === 'n') {
+    alert('That\'s not right but I can still see this turning around for you.');
+  } else {
+    alert('Are you even typing real words in the prompt box? ' + username);
+  }
 }
+beastMode();
 // --------------------------------Question 3-----------------------------------------------------------------------/
-var pokeAnswer = prompt('Do you think I like poke?').toLowerCase();
-// console.log('Do you think I like poke? ' + pokeAnswer);
+function badFish() {
+  var pokeAnswer = prompt('Do you think I like poke?').toLowerCase();
+  // console.log('Do you think I like poke? ' + badFish);
 
-if (pokeAnswer === 'no' || pnwAnswer === 'n') {
-  alert('Spot on!');
-  scoreCounter++;
-} else if (pokeAnswer === 'no' || pokeAnswer === 'n') {
-  alert('It\'s okay, it\'s not like I told you i didn\'t like it.');
-} else {
-  alert('I\'m not like most Seattleites in this regard ' + username);
+  if (pokeAnswer === 'no' || pokeAnswer === 'n') {
+    alert('Spot on!');
+    scoreCounter++;
+  } else if (pokeAnswer === 'no' || pokeAnswer === 'n') {
+    alert('It\'s okay, it\'s not like I told you i didn\'t like it.');
+  } else {
+    alert('I\'m not like most Seattleites in this regard ' + username);
+  }
 }
-
+badFish();
 // --------------------------------Question 4-----------------------------------------------------------------------/
-var skaterAnswer = prompt('Do you think I could have been a sponsored skateboarder in the 90s?').toLowerCase();
-// console.log('Do you think I could have been a sponsored skateboarder in the 90s? ' + skaterAnswer);
+function evansBoardsSports() {
+  var skaterAnswer = prompt('Do you think I could have been a sponsored skateboarder in the 90s?').toLowerCase();
+  // console.log('Do you think I could have been a sponsored skateboarder in the 90s? ' + evansBoardsSports);
 
-if (pokeAnswer === 'yes' || skaterAnswer === 'y') {
-  alert('I miss those days!');
-  scoreCounter++;
-} else if (skaterAnswer === 'no' || skaterAnswer === 'n') {
-  alert('Sorry ' + username + ', that is incorrect.');
-} else {
-  alert('Are you here against your will ' + username + '?');
+  if (skaterAnswer === 'yes' || skaterAnswer === 'y') {
+    alert('I miss those days!');
+    scoreCounter++;
+  } else if (skaterAnswer === 'no' || skaterAnswer === 'n') {
+    alert('Sorry ' + username + ', that is incorrect.');
+  } else {
+    alert('Are you here against your will ' + username + '?');
+  }
 }
-
+evansBoardsSports();
 // --------------------------------Question 5-----------------------------------------------------------------------/
-var forcedHandAnswer = prompt('Did someone make you come here?').toLowerCase();
-// console.log('Did someone make you come here? ' + forcedHandAnswer);
+function hereByWill() {
+  var forcedHandAnswer = prompt('Did someone make you come here?').toLowerCase();
+  // console.log('Did someone make you come here? ' + hereByWill);
 
-if (forcedHandAnswer === 'yes' || forcedHandAnswer === 'y') {
-  alert('I wonder who you ticked off ' + username + '....');
-  scoreCounter++;
-} else if (forcedHandAnswer === 'no' || forcedHandAnswer === 'n') {
-  alert('Wow ' + username + ', I feel honored.');
-} else {
-  alert('Don\'t fret, it\'s almost over now. ' + 'Welcome ' + username + '.');
+  if (forcedHandAnswer === 'yes' || forcedHandAnswer === 'y') {
+    alert('I wonder who you ticked off ' + username + '....');
+    scoreCounter++;
+  } else if (forcedHandAnswer === 'no' || forcedHandAnswer === 'n') {
+    alert('Wow ' + username + ', I feel honored.');
+  } else {
+    alert('Don\'t fret, it\'s almost over now. ' + 'Welcome ' + username + '.');
+  }
 }
-
+hereByWill();
 // --------------------------------Question 6-----------------------------------------------------------------------/
 // ask wanderer a question, give them 6 chances to get it right
 // alert them of the correct answer at the and of the iteration or after they answer correctly
-
-for (var i = 0; i < 4; i++) {
-  var answerNumberGuess = prompt('Can you guess my favorite number?...I will give you Four chances.');
-  // if answer is guessed correctly
-  if (answerNumberGuess === '6') {
-    // console.log('You guessed Right' + answerNumberGuess);
-    alert('Woah, you nailed it!');
-    scoreCounter++;
-    break;
-    // if answer is too low
-  } else if (answerNumberGuess < 6) {
-    // console.log('You guessed Low' + answerNumberGuess);
-    alert('Too low! Try again.');
-    //
-  } else if (answerNumberGuess > 6) {
-    // console.log('You guessed High' + answerNumberGuess);
-    alert('Too high!');
+function theNumberSix() {
+  for (var i = 0; i < 4; i++) {
+    var answerNumberGuess = prompt('Can you guess my favorite number?...I will give you Four chances.');
+    // if answer is guessed correctly
+    if (answerNumberGuess === '6') {
+      // console.log('You guessed Right' + theNumberSix);
+      alert('Woah, you nailed it!');
+      scoreCounter++;
+      break;
+      // if answer is too low
+    } else if (answerNumberGuess < 6) {
+      // console.log('You guessed Low' + theNumberSix);
+      alert('Too low! Try again.');
+      //
+    } else if (answerNumberGuess > 6) {
+      // console.log('You guessed High' + theNumberSix);
+      alert('Too high!');
+    }
   }
+  alert('The correct answer is 6.');
 }
-alert('The correct answer is 6.');
-
+theNumberSix();
 
 // --------------------------------Question 7-----------------------------------------------------------------------/
 // create an array of possible correct answers
@@ -144,23 +156,25 @@ var colorsOfTheRainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'violet'];
 var clueGuesses = 6;
 
 var correct = false;
+function lastRainbow() {
+  for (var i = 0; i < clueGuesses; i++) {
+    var questionSeven = prompt(`${username} There are six colors that are pretty universally recognized as the colors of the rainbow, can you guess any?`);
 
-for (var i = 0; i < clueGuesses; i++) {
-  var questionSeven = prompt(`${username} There are six colors that are pretty universally recognized as the colors of the rainbow, can you guess any?`);
-
-  for (var j = 0; j < colorsOfTheRainbow.length; j++) {
-    if (questionSeven === colorsOfTheRainbow[j]) {
-      alert(`You are Correct! ${colorsOfTheRainbow[j]} is a color that lives within the rainbow!`);
-      correct = true;
-      scoreCounter++;
+    for (var j = 0; j < colorsOfTheRainbow.length; j++) {
+      if (questionSeven === colorsOfTheRainbow[j]) {
+        alert(`You are Correct! ${colorsOfTheRainbow[j]} is a color that lives within the rainbow!`);
+        correct = true;
+        scoreCounter++;
+      }
+    } if (correct) {
+      break;
     }
-  } if (correct) {
-    break;
-  }
-  if (i === clueGuesses || correct) {
-    alert(`The colors of the rainbow are ${colorsOfTheRainbow}`);
+    if (i === clueGuesses || correct) {
+      alert(`The colors of the rainbow are ${colorsOfTheRainbow}`);
+    }
   }
 }
+lastRainbow();
 
 alert(`Thanks,  ${username} for playing my game! You scored: ${scoreCounter} / 7.`);
 // console.log(`Wanderer ${username} scored ${scoreCounter} +  / 7`);
@@ -206,7 +220,7 @@ alert(`Thanks,  ${username} for playing my game! You scored: ${scoreCounter} / 7
 // ...         ,..... ............. ....  ..       *.     ALOYSIOUS [ they / them ]
 // ..........***,,,,. .... ....    . . ...,        *    .
 // .........,...*.*.,.,..  ..        ....,*       ..
-// .................................................................................|
+// ................................................................................|
 //..................... <<<<<<<< SPECIAL THANKS TO >>>>>>>>........................|
 //#################################################################################|
 //#       ::IN COLLABORATION WITH::      |        ::CONTRIBUTION SCOPE::          #|
@@ -217,4 +231,5 @@ alert(`Thanks,  ${username} for playing my game! You scored: ${scoreCounter} / 7
 //#                       Garfield Grant | Loop Thoery [Question 7]               #|
 //#                          Tom McGuire | Introduced Counter Variable Concept    #|
 //#  Accountability Buddy ^^^^^ʕʘ̅͜ʘ̅ʔ^^^^^ |                                        #|
+//#                               Qadree | Converted Questions 1-7 to Functions   #|
 //#################################################################################|
