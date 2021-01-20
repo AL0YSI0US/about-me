@@ -2,7 +2,7 @@
 
 ## About Me
 
-Hello there, you have found yourself at the heart of Aloysious' about me page.
+Hello there, you have found yourself at the heart of **Aloysious'** about me page.
 
 This site offers YOU; the user (or "wanderer") snippets of information to read about the Author (Aloysious) as well as a series of questions that will allow you to get to know a little bit more about them! 
 
