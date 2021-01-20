@@ -24,7 +24,7 @@ This site offers YOU; the user (or "wanderer") snippets of information to read a
 + **Collaboration with Kassie Bradshaw** | Numbers Guessing Game [Question 6]
 + **Collaboration with Tom McGuire** | Introduced Counter Variable Concept
 + **Collaboration with Garfield Grant** | Loop Thoery | Numbers Guessing Game [Question 7]
-+ The shortcut **alt + shift + f**  formats various documents in visual code to adhere to margin rules.*
++ The shortcut **alt + shift + f**  formats various documents in visual code to adhere to margin rules.
 + **"inline" coding** on an HTML page will override the CSS file providing styles.
 + **codepen.io** is a great tool for testing / setting up a webpage, it has built in features like css.reset **to turn on predictive text** > Go to *Settings > Editor Preferences > Editor Options > enable predictive text*
 + Sans Serif is best for the web | Sarif is meant for print, visually it appears to have "feet". *The visual density of 'Sans' is less accessible when compared to the 'Sans Sarif font when viewed in a browser'*
