@@ -10,6 +10,7 @@ This site offers YOU; the user (or "wanderer") snippets of information to read a
 
 ### Author: ALOYSIOUS
 > Revolution is not a one time event. -Audre Lorde
+
 ### Links and Resources
 + [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
 + [Center Footer | stack overflow](https://stackoverflow.com/questions/15629511/how-can-i-make-my-footer-center-to-the-bottom-of-the-page/15629635)
