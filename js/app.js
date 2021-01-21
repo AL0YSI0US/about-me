@@ -1,13 +1,19 @@
 'use strict';
 
-// Proof Of Life:
+//                             ░  █████╗░██╗░░░░░░█████╗░██╗░░░██╗░██████╗██╗░█████╗░██╗░░░██╗░██████╗
+//                               ██╔══██╗██║░░░░░██╔══██╗╚██╗░██╔╝██╔════╝██║██╔══██╗██║░░░██║██╔════╝
+//                               ███████║██║░░░░░██║░░██║░╚████╔╝░╚█████╗░██║██║░░██║██║░░░██║╚█████╗░
+//                               ██╔══██║██║░░░░░██║░░██║░░╚██╔╝░░░╚═══██╗██║██║░░██║██║░░░██║░╚═══██╗
+//                               ██║░░██║███████╗╚█████╔╝░░░██║░░░██████╔╝██║╚█████╔╝╚██████╔╝██████╔╝
+//                               ╚═╝░░╚═╝╚══════╝░╚════╝░░░░╚═╝░░░╚═════╝░╚═╝░╚════╝░░╚═════╝░╚═════╝░
+// Proof Of Life...
 // console.log('Revolution is not a one time event. -Audre Lorde');
-// ---------------------------------------------------------------------------------------PLAN OF ATTACK------/
+// ----------------------------------------------------------------------------------------PLAN OF ATTACK-------------/
 // 1. get username and offer them a greeting
 // 2. Ask user 5 questions. they MUST accept yes or no in ANY case
 // normalize reponses to reduce coding efforts to .lowerCase();
 // print to console to confirm //
-// ---------------------------------------------------------------------------------------PLAN OF ATTACK------/
+// ----------------------------------------------------------------------------------------PLAN OF ATTACK-------------/
 // Ask pnwAnswer: 'Do you think I live in the Pacific Northwest?'
 //  if y:
 //  else if:
@@ -28,9 +34,9 @@
 //  if y: ALERT: 'I wonder who you ticked off...'
 //  if n: wow USERNAME i feel honored.
 //    else if: no worries were done USERNAME
-// ----------------------------------------------------------------------------------------PLAN OF ATTACK------/
+// ----------------------------------------------------------------------------------------PLAN OF ATTACK-------------/
 // ask wanderer to provide thier name (name will be used for the duration of the script)
-// prompt wanderer to answer 5 questions about ALOYSIOUS
+// prompt wanderer to answer 5 questions about > > > 'ALOYSIOUS' < < <
 // wanderer responses will be normalized to lowercase as will: y = yes / n = no
 
 var username = prompt('Well hello there wanderer, What\'s your name?').toUpperCase();
@@ -56,7 +62,7 @@ function nativeBorn() {
     alert('Better luck next time ' + username);
   }
 }
-nativeBorn();
+
 // --------------------------------Question 2-----------------------------------------------------------------------/
 function beastMode() {
   var cageFightAnswer = prompt('Would you believe I\'ve ever fought in cages?').toLowerCase();
@@ -71,7 +77,7 @@ function beastMode() {
     alert('Are you even typing real words in the prompt box? ' + username);
   }
 }
-beastMode();
+
 // --------------------------------Question 3-----------------------------------------------------------------------/
 function badFish() {
   var pokeAnswer = prompt('Do you think I like poke?').toLowerCase();
@@ -86,7 +92,7 @@ function badFish() {
     alert('I\'m not like most Seattleites in this regard ' + username);
   }
 }
-badFish();
+
 // --------------------------------Question 4-----------------------------------------------------------------------/
 function evansBoardsSports() {
   var skaterAnswer = prompt('Do you think I could have been a sponsored skateboarder in the 90s?').toLowerCase();
@@ -101,7 +107,7 @@ function evansBoardsSports() {
     alert('Are you here against your will ' + username + '?');
   }
 }
-evansBoardsSports();
+
 // --------------------------------Question 5-----------------------------------------------------------------------/
 function hereByWill() {
   var forcedHandAnswer = prompt('Did someone make you come here?').toLowerCase();
@@ -116,7 +122,7 @@ function hereByWill() {
     alert('Don\'t fret, it\'s almost over now. ' + 'Welcome ' + username + '.');
   }
 }
-hereByWill();
+
 // --------------------------------Question 6-----------------------------------------------------------------------/
 // ask wanderer a question, give them 6 chances to get it right
 // alert them of the correct answer at the and of the iteration or after they answer correctly
@@ -141,7 +147,7 @@ function theNumberSix() {
   }
   alert('The correct answer is 6.');
 }
-theNumberSix();
+
 // --------------------------------Question 7-----------------------------------------------------------------------/
 // create an array of possible correct answers
 // ask user to guess one / give them 6 tries
@@ -170,12 +176,18 @@ function lastRainbow() {
     }
   }
 }
+nativeBorn();
+beastMode();
+badFish();
+evansBoardsSports();
+hereByWill();
+theNumberSix();
 lastRainbow();
 
 alert(`Thanks,  ${username} for playing my game! You scored: ${scoreCounter} / 7.`);
 // console.log(`Wanderer ${username} scored ${scoreCounter} +  / 7`);
 
-// -------------------------------------------------------------------------------------------------------FIN---------/
+// -----------------------------------------------------------------------------------------------FIN---------x
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%&&%%%&%%%%%%
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#%%%&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 // %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%#**.,,.,*/,,,(*(&%&%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -230,3 +242,9 @@ alert(`Thanks,  ${username} for playing my game! You scored: ${scoreCounter} / 7
 //#                       Qadree Trimble | Code Conversion-►Numbers Guessing Game #|
 //#                                      | [Questions 1-7] Variables to Functions #|
 //#################################################################################|
+//      █─▄▄▄─█─▄▄─█▄─▄▄▀█▄─▄▄─█▄─▄▄─█▄─▄▄─█▄─▄███▄─▄███─▄▄─█▄─█▀▀▀█─▄█─▄▄▄▄█
+//      █─███▀█─██─██─██─██─▄█▀██─▄████─▄█▀██─██▀██─██▀█─██─██─█─█─█─██▄▄▄▄─█
+//      ▀▄▄▄▄▄▀▄▄▄▄▀▄▄▄▄▀▀▄▄▄▄▄▀▄▄▄▀▀▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▄▀▄▄▄▄▀▀▄▄▄▀▄▄▄▀▀▄▄▄▄▄▀
+//                             █▀▄▄▀█─▄▄─█▀▄▄▀█▀░██
+//                             ██▀▄██─██─██▀▄███░██
+//                             ▀▄▄▄▄▀▄▄▄▄▀▄▄▄▄▀▄▄▄▀
