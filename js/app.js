@@ -145,7 +145,6 @@ function theNumberSix() {
   alert('The correct answer is 6.');
 }
 theNumberSix();
-
 // --------------------------------Question 7-----------------------------------------------------------------------/
 // create an array of possible correct answers
 // ask user to guess one / give them 6 tries
@@ -231,5 +230,6 @@ alert(`Thanks,  ${username} for playing my game! You scored: ${scoreCounter} / 7
 //#                       Garfield Grant | Loop Thoery [Question 7]               #|
 //#                          Tom McGuire | Introduced Counter Variable Concept    #|
 //#  Accountability Buddy ^^^^^ʕʘ̅͜ʘ̅ʔ^^^^^ |                                        #|
-//#                               Qadree | Converted Questions 1-7 to Functions   #|
+//#                       Qadree Trimble | Code Conversion-►Numbers Guessing Game #|
+//#                                      | [Questions 1-7] Variables to Functions #|
 //#################################################################################|
