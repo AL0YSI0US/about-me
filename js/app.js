@@ -23,12 +23,12 @@
 //  if y: 'You nailed it!'
 //     else if: 'That\'s not right but I can still see this turning around for you.'
 //          else: 'Are you even typing real words in the prompt box? ' + username
-// Ask pokeAnswer: 'Do you think I like poke?' [= (NO)]
+// Ask pokeAnswer: 'Do you think I like to eat poke?' [= (NO)]
 //  if y: 'Spot on!'
-//     else if: 'It\'s okay, it\'s not like I told you i didn\'t like it.'
+//     else if: 'It\'s okay, it\'s not like I told you I didn\'t like it.'
 //          else: 'I\'m not like most Seattleites in this regard ' + username
 // Ask skaterAnswer: 'Do you think I could have been a sponsored skateboarder in the 90s?' [= (YES)]
-//  if y: 'I miss those days!'
+//  if y: 'I miss those days!...Shoutout to Evans Board Sports'
 //     else if: 'Sorry ' + username + ', that is incorrect.'
 //          else: 'Are you here against your will ' + username + '?'
 // Ask forcedHandAnswer: 'Did someone make you come here?' [= (YES)]
@@ -76,14 +76,14 @@ function beastMode() {
 
 // --------------------------------Question 3-----------------------------------------------------------------------/
 function badFish() {
-  var pokeAnswer = prompt('Do you think I like poke?').toLowerCase();
+  var pokeAnswer = prompt('Do you think I like to eat poke?').toLowerCase();
   // console.log('Do you think I like poke? ' + badFish);
 
   if (pokeAnswer === 'no' || pokeAnswer === 'n') {
     alert('Spot on!');
     scoreCounter++;
-  } else if (pokeAnswer === 'no' || pokeAnswer === 'n') {
-    alert('It\'s okay, it\'s not like I told you i didn\'t like it.');
+  } else if (pokeAnswer === 'yes' || pokeAnswer === 'y') {
+    alert('It\'s okay, it\'s not like I told you I didn\'t like it.');
   } else {
     alert('I\'m not like most Seattleites in this regard ' + username);
   }
@@ -95,7 +95,7 @@ function evansBoardsSports() {
   // console.log('Do you think I could have been a sponsored skateboarder in the 90s? ' + evansBoardsSports);
 
   if (skaterAnswer === 'yes' || skaterAnswer === 'y') {
-    alert('I miss those days!');
+    alert('I miss those days!...Shoutout to Evans Board Sports');
     scoreCounter++;
   } else if (skaterAnswer === 'no' || skaterAnswer === 'n') {
     alert('Sorry ' + username + ', that is incorrect.');
