@@ -1,3 +1,4 @@
+
 * {
     /* border: 3px solid whitesmoke; */
     margin: 25px;
@@ -5,7 +6,7 @@
 }
 
 
-/* About Me banner*/
+/* <header> [ALOYSIOUS] */
 
 header {
     background-color: rgb(134, 6, 6);
@@ -27,8 +28,8 @@ body {
 }
 
 
-/* About me details*/
 
+/* [About Me] details */
 h1 {
     color: rgb(235, 236, 245);
     font-family: Arial, Helvetica, sans-serif;
@@ -43,14 +44,6 @@ h1 {
 
 
 /* Education and Work History The vision / past lives*/
-
-h2 {
-    text-align: center;
-    margin: auto;
-    font-family: Arial, Helvetica, sans-serif;
-    display: inline-block;
-}
-
 
 /* Education - Unordererd list*/
 
@@ -81,44 +74,65 @@ ol {
     text-align: center;
 }
 
-
-/* About Me */
-
-p.one {
+/* Hello there wanderer...My name is Aloysious......BOX */
+p.hello {
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
     border: solid rgb(105, 13, 28) 2px;
     padding: 8px;
     margin: 10px 60px 10px 20px;
-    /* jobs list
+} 
+    
+/* jobs list */
+
 p.four {
    text-align: left; 
    font-family: Arial, Helvetica, sans-serif; 
    border: solid rgb(104, 23, 151) 2px;
    padding: 8px; 
-   margin: 10px 60px 10px 20px; */
+   margin: 10px 60px 10px 20px;
 }
 
 
-/* The "Vision"...I dream of collaborating with */
+/* The "Vision"...I dream of a career where I am collaborating BOX */
+p.vision { 
+    text-align: left; 
+    font-family: Arial, Helvetica, sans-serif; 
+    border: solid rgb(104, 23, 151) 2px;
+    padding: 8px; 
+    margin: 10px 60px 10px 20px; 
+ }
 
-p.two {
+/* Favorite Artists Banner  BOX */
+p.favoriteArtistBanner {
     display: block;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid rgb(104, 23, 151) 2px;
+    border: solid rgb(104, 23, 151)2px;
     padding: 8px;
     margin: 10px 60px 10px 20px;
 }
 
-
-/* "Favorite Artists" banner */
-
-p.three {
+/* "Favorite Artists" BOX */
+p.artists {
     display: block;
     text-align: left;
     font-family: Arial, Helvetica, sans-serif;
-    border: solid rgb(105, 13, 28) 2px;
+    border: solid rgb(105, 13, 28)3px;
+    width: 200px;
+    padding: 2px;
+    margin: 10px 60px 10px 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    
+}
+
+/* Favorite Artists list 10 numbers */
+ol {
+    display: block;
+    list-style-position: inside;
+    list-style-type: decimal;
+    border: dashed rgb(104, 23, 151)3px;
     width: 200px;
     padding: 2px;
     margin: 10px 60px 10px 20px;
