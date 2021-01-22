@@ -6,45 +6,41 @@
 //                               ██╔══██║██║░░░░░██║░░██║░░╚██╔╝░░░╚═══██╗██║██║░░██║██║░░░██║░╚═══██╗
 //                               ██║░░██║███████╗╚█████╔╝░░░██║░░░██████╔╝██║╚█████╔╝╚██████╔╝██████╔╝
 //                               ╚═╝░░╚═╝╚══════╝░╚════╝░░░░╚═╝░░░╚═════╝░╚═╝░╚════╝░░╚═════╝░╚═════╝░
-// Proof Of Life...
+// > > > Proof Of Life...
 // console.log('Revolution is not a one time event. -Audre Lorde');
+// ----------------------------------------------------------------------------------------PLAN OF ATTACK [SCRIPT]---/
+// 1. Get > [username] and > offer them a (greeting).
+// 2. Ask the user [5] questions about > > > ALOYSIOUS < < < They MUST accept ['yes'] or ['no'] in ANY case.
+// 3. Normalize reponses to reduce coding efforts to > .lowerCase();
+// 4. Print to console to confirm between iterations if desired | Comment out when not in use.
+// 5. Make art for therapy when, repeat as needed.
+// ---------------------------------------------------------------------------------------------[Questions 1 - 5]----/
+// Ask pnwAnswer: 'Do you think I live in the Pacific Northwest?' [= (YES)]
+//  if y: 'You nailed it!'
+//     else if: That\'s not right but I can see this turning around for you.'
+//          else: 'Better luck next time ' + username
+// Ask cageFightAnswer: 'Would you believe I\'ve ever fought in cages?' [= (YES)]
+//  if y: 'You nailed it!'
+//     else if: 'That\'s not right but I can still see this turning around for you.'
+//          else: 'Are you even typing real words in the prompt box? ' + username
+// Ask pokeAnswer: 'Do you think I like poke?' [= (NO)]
+//  if y: 'Spot on!'
+//     else if: 'It\'s okay, it\'s not like I told you i didn\'t like it.'
+//          else: 'I\'m not like most Seattleites in this regard ' + username
+// Ask skaterAnswer: 'Do you think I could have been a sponsored skateboarder in the 90s?' [= (YES)]
+//  if y: 'I miss those days!'
+//     else if: 'Sorry ' + username + ', that is incorrect.'
+//          else: 'Are you here against your will ' + username + '?'
+// Ask forcedHandAnswer: 'Did someone make you come here?' [= (YES)]
+//  if y: 'I wonder who you ticked off ' + username + '....''
+//     else if: 'Wow ' + username + ', I feel honored.'
+//           else: 'Don\'t fret, it\'s almost over now. ' + 'Welcome ' + username + '.'
 // ----------------------------------------------------------------------------------------PLAN OF ATTACK-------------/
-// 1. get username and offer them a greeting
-// 2. Ask user 5 questions. they MUST accept yes or no in ANY case
-// normalize reponses to reduce coding efforts to .lowerCase();
-// print to console to confirm //
-// ----------------------------------------------------------------------------------------PLAN OF ATTACK-------------/
-// Ask pnwAnswer: 'Do you think I live in the Pacific Northwest?'
-//  if y:
-//  else if:
-//    else:
-// Ask cageFightAnswer: 'Would you believe I\'ve ever fought in cages?'
-//  if y:
-//  if n:
-//    else if:
-// Ask pokeAnswer: 'Do you think I like poke?'
-//  if y:
-//  if n:
-//    else if:
-// Ask skaterAnswer: 'Do you think I could have been a sponsored skateboarder in the 90s?'
-//  if y:
-//  if n:
-//    else if:
-// Ask forcedHandAnswer: 'Did someone make you come here?'
-//  if y: ALERT: 'I wonder who you ticked off...'
-//  if n: wow USERNAME i feel honored.
-//    else if: no worries were done USERNAME
-// ----------------------------------------------------------------------------------------PLAN OF ATTACK-------------/
-// ask wanderer to provide thier name (name will be used for the duration of the script)
-// prompt wanderer to answer 5 questions about > > > 'ALOYSIOUS' < < <
-// wanderer responses will be normalized to lowercase as will: y = yes / n = no
-
 var username = prompt('Well hello there wanderer, What\'s your name?').toUpperCase();
 
-// score counter decalred in the begining of code, must appear after each correct answer to tally scores
-// an alert at the end of the script will inform the wanderer of thier achieved score
-
 var scoreCounter = 0;
+// score counter decalred in the begining of code, must appear after each correct answer to tally scores
+// an alert at the end of the script will inform the wanderer of thier achieved overall score.
 
 alert('Greeting\'s ' + username + ', it\'s an absolute pleasure to meet you!');
 // console.log('INTRUDER ALERT>>>' + username);
@@ -123,9 +119,11 @@ function hereByWill() {
   }
 }
 
-// --------------------------------Question 6-----------------------------------------------------------------------/
-// ask wanderer a question, give them 6 chances to get it right
-// alert them of the correct answer at the and of the iteration or after they answer correctly
+// --------------------------------Question 6----------------------------------------------PLAN OF ATTACK-------------/
+// 1. Ask wanderer a question, they must input the correct answer to get a point.
+// 2. Give them [6] chances to guess correctly.
+// 3. Alert them of the correct answer at the and of the iteration [or] after they answer correctly.
+// ----------------------------------------------------------------------------------------PLAN OF ATTACK-------------/
 function theNumberSix() {
   for (var i = 0; i < 4; i++) {
     var answerNumberGuess = prompt('Can you guess my favorite number?...I will give you Four chances.');
@@ -148,10 +146,12 @@ function theNumberSix() {
   alert('The correct answer is 6.');
 }
 
-// --------------------------------Question 7-----------------------------------------------------------------------/
-// create an array of possible correct answers
-// ask user to guess one / give them 6 tries
-// give them a final sccore at the end!
+// --------------------------------Question 7----------------------------------------------PLAN OF ATTACK-------------/
+// 1. Create an array to store possible correct answers.
+// 1. Ask wanderer a question, they must guess an item out of the array to get a point.
+// 2. Give them [6] chances to guess correctly.
+// 3. Give them a final sccore at the end!
+// ----------------------------------------------------------------------------------------PLAN OF ATTACK-------------/
 
 var colorsOfTheRainbow = ['red', 'orange', 'yellow', 'green', 'blue', 'violet'];
 
