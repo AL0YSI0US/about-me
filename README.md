@@ -14,13 +14,13 @@ as well as a series of questions that will allow you to get to know a little bit
 
 ![face](https://github.com/AL0YSI0US/about-me/blob/main/img/aloysiousAltered.JPG?raw=true)
 
-## Designer:
+## Designer: [aloe-wish-iss]
 
 ![banner](https://github.com/AL0YSI0US/about-me/blob/main/img/bannerNameArt.JPG?raw=true)
 
 > Revolution is not a one time event. -Audre Lorde
 
-## Collaborators [aloe-wish-iss]
+## Collaborators 
 
 + **Collaboration with Kassie Bradshaw and Patrick Laurion** | Numbers Guessing Game [Questions 1 - 5]
 
