@@ -41,7 +41,7 @@ as well as a series of questions that will allow you to get to know a little bit
 + Sans Serif is best for the web | Sarif is meant for print, visually it appears to have "feet". *The visual density of 'Sans' is less accessible when compared to the 'Sans Sarif font when viewed in a browser'*
 + **JSFiddle** is an online IDE service and online community for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets, known as 'fiddles'. It allows for simulated AJAX calls
 
-> > > > > > >![access](https://github.com/AL0YSI0US/about-me/blob/main/img/8grid.png?raw=true) 
+> > > > > > > > > > > > > > > > > > > > > > >![access](https://github.com/AL0YSI0US/about-me/blob/main/img/8grid.png?raw=true) 
 
 ## Accessibility Data for Website: al0ysi0us.github.io/about-me 
 
