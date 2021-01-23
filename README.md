@@ -2,7 +2,9 @@
 
 ## About Me
 
-Hello there, you have found yourself at the heart of **Aloysious'** about me page.
+Hello there, 
+
+you have found yourself at the heart of **Aloysious'** about me page.
 
 This site offers **YOU**; the *user* (or "***wanderer***") 
 
