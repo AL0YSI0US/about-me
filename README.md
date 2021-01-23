@@ -18,7 +18,7 @@ as well as a series of questions that will allow you to get to know a little bit
 
 ![banner](https://github.com/AL0YSI0US/about-me/blob/main/img/bannerNameArt.JPG?raw=true)
 
-Revolution is not a one time event. -Audre Lorde
+> Revolution is not a one time event. -Audre Lorde
 
 ## Collaborators [aloe-wish-iss]
 
