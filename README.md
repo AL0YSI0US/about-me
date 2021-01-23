@@ -51,14 +51,15 @@ as well as a series of questions that will allow you to get to know a little bit
 + Sans Serif is best for the web | Sarif is meant for print, visually it appears to have "feet". *The visual density of 'Sans' is less accessible when compared to the 'Sans Sarif font when viewed in a browser'*
 + **JSFiddle** is an online IDE service and online community for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets, known as 'fiddles'. It allows for simulated AJAX calls
 
-## Accessibility 
+## Accessibility Date for Website: al0ysi0us.github.io/about-me 
 
-January 23, 2021 **WCAG 2.1 AA Level Web Accessibility Audit** Website: al0ysi0us.github.io/about-me | Verdict : **Compliant!** 
+
+January 23, 2021 **WCAG 2.1 AA Level Web Accessibility Audit** | Verdict : **Compliant!** 
 
 January 23, 2021 **WAVE Web Accessibility Evaluation** | Verdict : **Compliant!**
 
-January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : Invalid Language Listed in HTML Markup 
+January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : **Invalid Language Listed in HTML Markup** 
 
-January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : alt="text" missing from author image listed on webpage
+January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : **alt="text" missing** from author **image** listed on webpage
 
 ![props](https://github.com/AL0YSI0US/about-me/blob/main/img/giveCreditWhereItsDue.JPG?raw=true)
