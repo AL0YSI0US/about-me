@@ -22,7 +22,7 @@ as well as a series of questions that will allow you to get to know a little bit
 
 > Revolution is not a one time event. -Audre Lorde
 
-## Collaborators 
+## > > > > > C O L L A B O R A T I O N < < < < < 
 
 + **Collaboration with Kassie Bradshaw and Patrick Laurion** | Numbers Guessing Game [Questions 1 - 5]
 
@@ -34,14 +34,14 @@ as well as a series of questions that will allow you to get to know a little bit
 
 + **Collaboration with Qadree Trimble** | Numbers Guessing Game [Questions 1 - 7] Code transistion from Variables to Functions
 
-## Reflections
+## > > > > > R E F L E C T I O N S < < < < <
 
 + **"inline" coding** on an HTML page will override the CSS file providing styles / Style evything in CSS, **use strict**,  and **reset** sheet.
 + **codepen.io** is a great tool for testing / setting up a webpage, it has built in features like css.reset **to turn on predictive text** > Go to *Settings > Editor Preferences > Editor Options > enable predictive text*
 + Sans Serif is best for the web | Sarif is meant for print, visually it appears to have "feet". *The visual density of 'Sans' is less accessible when compared to the 'Sans Sarif font when viewed in a browser'*
 + **JSFiddle** is an online IDE service and online community for testing and showcasing user-created and collaborational HTML, CSS and JavaScript code snippets, known as 'fiddles'. It allows for simulated AJAX calls
 
-![access](https://github.com/AL0YSI0US/about-me/blob/main/img/8grid.png?raw=true)
+> > > > > > >![access](https://github.com/AL0YSI0US/about-me/blob/main/img/8grid.png?raw=true) 
 
 ## Accessibility Data for Website: al0ysi0us.github.io/about-me 
 
@@ -53,9 +53,11 @@ January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : **Invalid Lan
 
 January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : **alt="text" missing** from author **image** listed on webpage
 
+## > > > > > T H A N K  Y O U < < < < <
+
 ![props](https://github.com/AL0YSI0US/about-me/blob/main/img/giveCreditWhereItsDue.JPG?raw=true)
 
-## Links and Resources
+## > > > > > L I N K S & R E S O U R C E S < < < < <
 
 + [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
 + [Center Footer | stack overflow](https://stackoverflow.com/questions/15629511/how-can-i-make-my-footer-center-to-the-bottom-of-the-page/15629635)
