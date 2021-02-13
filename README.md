@@ -22,7 +22,7 @@ as well as a series of questions that will allow you to get to know a little bit
 
 > Revolution is not a one time event. -Audre Lorde
 
-## > > > > > C O L L A B O R A T I O N < < < < < 
+## > C O L L A B O R A T I O N <
 
 + **Collaboration with Kassie Bradshaw and Patrick Laurion** | Numbers Guessing Game [Questions 1 - 5]
 
@@ -34,7 +34,7 @@ as well as a series of questions that will allow you to get to know a little bit
 
 + **Collaboration with Qadree Trimble** | Numbers Guessing Game [Questions 1 - 7] Code transistion from Variables to Functions
 
-## > > > > > R E F L E C T I O N S < < < < <
+## > R E F L E C T I O N S < 
 
 + **"inline" coding** on an HTML page will override the CSS file providing styles / Style evything in CSS, **use strict**,  and **reset** sheet.
 + **codepen.io** is a great tool for testing / setting up a webpage, it has built in features like css.reset **to turn on predictive text** > Go to *Settings > Editor Preferences > Editor Options > enable predictive text*
@@ -53,11 +53,10 @@ January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : **Invalid Lan
 
 January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : **alt="text" missing** from author **image** listed on webpage
 
-## > > > > > > > T H A N K  Y O U < < < < < < <
-
+## > T H A N K  Y O U < 
 ![props](https://github.com/AL0YSI0US/about-me/blob/main/img/giveCreditWhereItsDue.JPG?raw=true)
 
-## > > > > > L I N K S & R E S O U R C E S < < < < <
+## > L I N K S & R E S O U R C E S < 
 
 + [CSS reset](https://meyerweb.com/eric/tools/css/reset/)
 + [Center Footer | stack overflow](https://stackoverflow.com/questions/15629511/how-can-i-make-my-footer-center-to-the-bottom-of-the-page/15629635)
@@ -68,3 +67,13 @@ January 22, 2021 **WAVE Web Accessibility Evaluation** | Verdict : **alt="text" 
 + [WAVE Web Accessibility Evaluation Tool](https://wave.webaim.org/)
 + [aCe ADA & WCAG Website Compliance Audit](https://ace.accessibe.com/)
 + [Chrome Screen Reader Plugin](https://chrome.google.com/webstore/detail/screen-reader/kgejglhpjiefppelpmljglcjbhoiplfn?hl=ena)
+
+
+This work by <a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/AL0YSI0US/" property="cc:attributionName" rel="cc:attributionURL">AL0YSI0US</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>. <a rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a><br /> [![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](http://commonmark.org)
+
+
+<!--
+
+![Profile views](https://gpvc.arturio.dev/AL0YSI0US)
+
+-->
